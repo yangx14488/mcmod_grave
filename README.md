@@ -5,4 +5,4 @@
 
 
 #详情和介绍
-请访问：[MCBBS](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1201718&page=1#pid21967930) 
+请访问：[MCBBS](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1201718) 

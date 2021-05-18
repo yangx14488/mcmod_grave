@@ -1,0 +1,45 @@
+# This is an example mods.toml file. It contains the data relating to the loading mods.
+# There are several mandatory fields (#mandatory), and many more that are optional (#optional).
+# The overall format is standard TOML format, v0.5.0.
+# Note that there are a couple of TOML lists in this file.
+# Find more information on toml format here:  https://github.com/toml-lang/toml
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+
+modLoader="javafml" #mandatory
+loaderVersion="[35.1,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+issueTrackerURL="http://atcat.net/qing_wan" #optional
+license="MIT License (MIT) Copyright © 2021 nanzhi_pigeon<1448848683@qq.com>"
+
+[[mods]] #mandatory
+modId="nanzhi_grave" #mandatory
+version="1.0" #mandatory
+displayName="墓碑" #mandatory
+updateJSONURL="http://atcat.net/nanzhi_grave" #optional
+displayURL="http://atcat.net/nanzhi_grave" #optional
+logoFile="icon.png" #optional
+credits= "nanzhi_pigeon"
+authors="nanzhi_pigeon" #optional
+description='''
+南织鸽子的墓碑，基于箱子做的，应该兼容大部分服务端？我也不确定。
+'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.examplemod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[35.1,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3,)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,6 +1,0 @@
-{
-	"parent": "nanzhi_grave:block/grave",
-	"textures": {
-		"1": "block/stone"
-	}
-}

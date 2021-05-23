@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "nanzhi_grave:item/id_tag"
+	},
+	"overrides": [ {
+		"predicate": {
+			"nanzhi_grave:named": 1
+		},
+		"model": "nanzhi_grave:item/id_tag_named"
+	} ]
+}

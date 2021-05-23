@@ -1,0 +1,38 @@
+{
+  "parent": "nanzhi_grave:story/grave",
+  "display": {
+    "icon": {
+      "item": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "advancements.story.nanzhi_grave.campfire"
+    },
+    "description": {
+      "translate": "advancements.story.nanzhi_grave.campfire.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:item_used_on_block" ,
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:campfires"
+          }
+        },
+        "item": {
+          "item": "nanzhi_grave:grave"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "unlock"
+    ]
+  ]
+}

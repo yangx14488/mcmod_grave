@@ -1,0 +1,61 @@
+{
+
+  "item.nanzhi_grave.gravestone": "墓碑",
+  "lore.item.nanzhi_grave.grave": "一块石头切成的墓碑",
+  "lore_end.item.nanzhi_grave.grave": "在你死亡时，它会为你构建一个属于你的坟墓",
+  "item.nanzhi_grave.id_tag": "身份牌",
+  "lore_nl.item.nanzhi_grave.id_tag": "手持身份牌并使用以写上你的名字",
+  "lore_n_e.item.nanzhi_grave.id_tag": "写上名字后可以用来代替墓碑",
+  "lore.item.nanzhi_grave.id_tag": "一张刻着名字的身份牌",
+  "lore_err.item.nanzhi_grave.id_tag": "一张污损的身份牌，已不能使用，可以留作纪念",
+  "lore_end.item.nanzhi_grave.id_tag": "所有者: %1$s",
+
+
+  "block.nanzhi_grave.grave": "坟墓",
+
+  "txt.nanzhi_grave.grave": "%1$s建造的%2$s" ,
+  "txt.nanzhi_grave.g_o_n": "无主之墓" ,
+  "txt.nanzhi_grave.g_o_name": "%1$s之墓",
+  "txt.nanzhi_grave.d_o_n": "%1$s年第%2$s天，一位旅客长眠于此" ,
+  "txt.nanzhi_grave.create_grave": "已在你死亡的地方留下了一个坟墓" ,
+  "txt.nanzhi_grave.create_grave_pos": "§7坐标为: x§6%1$s§7 y§6%2$s§7 z§6%3$s" ,
+  "txt.nanzhi_grave.c_c_g_u": "§6找不到合适的位置做坟墓，请及时取回你的物品" ,
+  "txt.nanzhi_grave.c_c_g_c": "§6你的背包内没有合适的容器创建坟墓" ,
+  "txt.nanzhi_grave.cannot_open": "你不能打开这个坟墓，因为你不是所有者",
+  "txt.nanzhi_grave.death": "死于非命" ,
+  "txt.nanzhi_grave.notify": "§6你的坟墓被他人挖了或意外损坏了" ,
+
+
+  "conf.nanzhi_grave.title": "南织鸽子的坟墓设置",
+  "conf.nanzhi_grave.can_work": "让模组处理死亡",
+  "conf.nanzhi_grave.in_void": "虚空死亡生成",
+  "conf.nanzhi_grave.in_lava": "岩浆死亡生成",
+  "conf.nanzhi_grave.in_sky": "空中死亡时向下搜寻地表",
+  "conf.nanzhi_grave.in_sky_y": "地表搜寻最低高度",
+  "conf.nanzhi_grave.death_by_asphyxia": "窒息死亡时向上搜寻地表",
+  "conf.nanzhi_grave.loop_radius": "坟墓生成半径",
+  "conf.nanzhi_grave.free_nameless": "生成无主坟墓无需容器",
+  "conf.nanzhi_grave.free_named": "生成有主坟墓无需容器",
+  "conf.nanzhi_grave.spawn_zombie": "盗墓生成小僵尸",
+  "conf.nanzhi_grave.break_use_shove": "墓主可用铲子快速破坏其坟墓",
+  "conf.nanzhi_grave.drop_chance": "石质坟墓墓碑掉落概率",
+  "conf.nanzhi_grave.death_msg": "生成通知",
+  "conf.nanzhi_grave.death_msg_pos": "生成通知：告知坐标",
+  "conf.nanzhi_grave.death_msg_nfc": "生成通知：没有容器",
+  "conf.nanzhi_grave.not_valid_position": "墓地无依赖时损坏（损坏时会应用盗墓生成僵尸开关）",
+  "conf.nanzhi_grave.cause_of_death": "碑文显示死因",
+  "conf.nanzhi_grave.notify_owner": "有主之墓碑破坏时通知墓主",
+
+
+  "txt.nanzhi_grave.id_tag.named": "你在身份牌上刻下了你的名字",
+
+  "advancements.story.nanzhi_grave.grave": "我们终会消逝",
+  "advancements.story.nanzhi_grave.grave.description": "做一块墓碑以保留自己的物品",
+
+  "advancements.story.nanzhi_grave.campfire": "§b坟头冒青烟",
+  "advancements.story.nanzhi_grave.campfire.description": "§f怎么会有人想把坟墓往营火上放的？？？啊？？这合理吗！"
+
+
+
+
+}

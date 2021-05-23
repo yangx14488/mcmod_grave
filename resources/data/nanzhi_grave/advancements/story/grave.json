@@ -1,0 +1,36 @@
+{
+  "parent": "story/mine_stone",
+  "display": {
+    "icon": {
+      "item": "nanzhi_grave:grave"
+    },
+    "title": {
+      "translate": "advancements.story.nanzhi_grave.grave"
+    },
+    "description": {
+      "translate": "advancements.story.nanzhi_grave.grave.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "item": [ {
+          "item": "nanzhi_grave:grave" ,
+          "count": {
+            "min" : 1
+          }
+        } ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "unlock"
+    ]
+  ]
+}

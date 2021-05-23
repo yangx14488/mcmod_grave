@@ -1,0 +1,28 @@
+{
+    "multipart": [
+        {   "when": { "facing": "east", "stone" : "false" },
+            "apply": { "model": "nanzhi_grave:block/grave", "y": 90 }
+        },
+        {   "when": { "facing": "south", "stone" : "false" },
+            "apply": { "model": "nanzhi_grave:block/grave", "y": 180 }
+        },
+        {   "when": { "facing": "west", "stone" : "false" },
+            "apply": { "model": "nanzhi_grave:block/grave", "y": 270 }
+        },
+        {   "when": { "facing": "north", "stone" : "false" },
+            "apply": { "model": "nanzhi_grave:block/grave" }
+        } ,
+        {   "when": { "facing": "east", "stone" : "true" },
+            "apply": { "model": "nanzhi_grave:block/grave_stone", "y": 90 }
+        },
+        {   "when": { "facing": "south", "stone" : "true" },
+            "apply": { "model": "nanzhi_grave:block/grave_stone", "y": 180 }
+        },
+        {   "when": { "facing": "west", "stone" : "true" },
+            "apply": { "model": "nanzhi_grave:block/grave_stone", "y": 270 }
+        },
+        {   "when": { "facing": "north", "stone" : "true" },
+            "apply": { "model": "nanzhi_grave:block/grave_stone" }
+        }
+    ]
+}

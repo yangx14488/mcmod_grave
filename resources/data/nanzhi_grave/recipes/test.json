@@ -1,0 +1,8 @@
+{
+  "type" : "minecraft:smoking" ,
+  "ingredient" : {
+    "item" : "minecraft:stone"
+  } ,
+  "result" : "nanzhi_grave:grave" ,
+  "count" : 1
+}
